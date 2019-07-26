@@ -1,0 +1,21 @@
+#INSTALATION
+# laravel version should be 5.8^ or greater
+# open your command line and run composer install
+# create a database named hsync in your phpmyadmin
+# open .env file
+
+	DB_HOST=127.0.0.1
+	DB_DATABASE=hsync
+	DB_USERNAME=root
+	DB_PASSWORD=
+
+# run on your cli php artisan migrate
+# also run on your cli php artisan db:seed --class=UsersTableSeeder
+# and php artisan db:seed --class=PositionsTableSeeder
+# port starts with 127.0.0.1:8000
+
+
+CMS-AdminUsers
+
+-Username: admin@outlook.com
+-Password: admin123
